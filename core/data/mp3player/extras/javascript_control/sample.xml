@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+    <title>Sample XSPF Playlist</title>
+    <info>http://www.jeroenwijering.com/?item=Flash_MP3_Player</info>
+    <annotation>Sample playlist for the mp3player in XSPF format</annotation>
+    <trackList>
+
+
+        <track>
+            <annotation>Sample Playlist - Track One</annotation>
+            <location>../../mp3/homeland.mp3</location>
+            <info>http://www.jeroenwijering.com/?item=Flash_MP3_Player</info>
+        </track>
+        <track>
+            <annotation>Sample Playlist - Track Two</annotation>
+            <location>../../mp3/jazzalude.mp3</location>
+            <info>http://www.jeroenwijering.com/?item=Flash_MP3_Player</info>
+        </track>
+
+
+    </trackList>
+</playlist>

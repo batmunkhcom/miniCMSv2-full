@@ -1,0 +1,14 @@
+.loginTitle,.userPanelTitle{
+	height:22px;
+	color:#333333;
+	font-weight:bold;
+	padding-left:25px;
+	padding-top:2px;
+	background-color:#f0fce3;
+}.loginTBL{
+	color:#333333;
+	margin-bottom:4px;
+	background-image:url(../images/talbar1_3_title_bg.jpg);
+	background-repeat:repeat-x;
+	border:1px solid #9ac012;
+}

@@ -1,0 +1,79 @@
+<?
+	$lang['users']['user_add'] = "Хэрэглэгч нэмэх";
+	$lang['users']['users_list'] = "Хэрэглэгчдийн жагсаалт";
+	$lang['user']['update_profile'] = "Хэрэглэгчийн мэдээлэл засварлах";
+	# modules/users/registration.php
+	$lang["users"]["verification_txt"] = "batalgaajuulah link: {VERIFICATION_LINK} <br /><br />Ta deerh holboosiig oilgohgui bgaa bol {VERIFICATION_LINK} haygiig BROWSER iihaa address bar-d  COPY PASTE hiine uuriiguu idevhjuulne uu.";
+	$lang["users"]["registration_successfull"] = "Бүртгэлийг хүлээж авлаа. Таны имэйлээр бүртгэлийн мэдээллийг илгээсэн. Та бүртгэлээ шууд ашиглах боломжтой.";
+	$lang["users"]["invalid_username_format"] = "Хэрэглэгчийн нэр латин үсгээр эхэлэх бөгөөд зөвхөн үсэг тоо агуулж болно.";
+	$lang["users"]["already_exists_username"] = "Уг хэрэглэгчийн нэр ашиглагдчихсан байна.";
+	$lang["users"]["already_exists_email"] = "Уг имэйл хаяг ашиглагдсан байна. Та өөр имэйл хаяг сонгох буюу хэрэв уг имэйл хаягаар бүртгүүлсэн бол тухайн хэрэглэгчийн эрхээ ашиглана уу.";
+	$lang["users"]["invalid_email"] =  "Имэйл хаяг буруу байна.";
+	$lang["users"]["error_occurred"] = "Ямар нэгэн алдаа гарлаа. Дараа дахин оролдоно уу.";
+	$lang["users"]["error_passwords_not_match"] = "Нууц үгс хоорондоо тохирохгүй байна.";
+	$lang["users"]["error_avatar_dimensions"] = "Хөрөг зургийн боломжит өндөр ".AVATAR_HEIGHT."рх өргөн ".AVATAR_WIDTH."рх байх ёстой";
+	$lang["users"]["error_max_avatar_filesize"] = "Хөрөг зургийн хэмжээ хамгийн ихдээ ".ceil(AVATAR_FILESIZE/1024)."kb зөвшөөрнө.";
+	$lang["users"]["no_such_user_exists"] = "Уг хэрэглэгч одсонгүй";	
+	$lang["users"]["command_avatar_uploaded"] = "Хөрөг зургийг орууллаа";
+	
+	$lang["users"]["avatar_current"] = "Одоогийн хөрөг зураг";
+	$lang["users"]["button_avatar_upload"] = "Хөрөг зураг оруулах";
+	#user login
+	$lang["users"]["login_title"] = "Хэрэглэгчийн булан";
+	$lang["users"]["login_username"] = "Нэвтрэх нэр";
+	$lang["users"]["login_password"] = "Нууц үг";
+	$lang["users"]["login_signup"] = "Бүртгүүлэх";
+	$lang["users"]["login_forgotpass"] = "Нууц үг сэргээх";
+	$lang["users"]["login_button"] = "Нэвтрэх";
+	$lang["users"]["user_avatar"] = "Хөрөг зураг";
+	$lang["users"]["user_profile"] = "Хувийн мэдээлэл";
+	$lang["users"]['user_blog'] = "Блог";
+	$lang["users"]['normal_content_add'] = "Энгийн мэдээлэл оруулах";
+	$lang["users"]['normal_content_list'] = "Энгийн мэдээллүүд";
+	$lang["users"]['photo_content_add'] = "Зураган мэдээлэл оруулах";
+	$lang["users"]['photo_content_list'] = "Зураган мэдээллүүд";
+	$lang["users"]['video_content_add'] = "Видео мэдээлэл оруулах";
+	$lang["users"]['video_content_list'] = "Видео мэдээллүүд";
+	$lang["users"]['photo_add'] = "Зураг оруулах";
+	$lang["users"]['user_logout'] = "Гарах";
+	
+	$lang["users"]["sponsor"] = "Урьсан хүн";
+	$lang["users"]["username"] = "Нэвтрэх нэр";
+	$lang["users"]["password"] = "Нууц үг";
+	$lang["users"]["verify_password"] = "Нууц үгээ баталгаажуул";
+	$lang["users"]["email"] = "Имэйл";
+	$lang["users"]["firstname"] = "Нэр";
+	$lang["users"]["lastname"] = "Овог";
+	$lang["users"]["birthday"] = "Төрсөн огноо";
+	$lang["users"]["gender"] = "Хүйс";
+	$lang["users"]["male"] = "Эрэгтэй";
+	$lang["users"]["female"] = "Эмэгтэй";
+	$lang["users"]["mobile"] = "Гар утас";
+	$lang["users"]["phone"] = "Утас";
+	$lang["users"]["fax"] = "Факс";
+	$lang["users"]["yim"] = "YIM";
+	$lang["users"]["msn"] = "MSN";
+	$lang["users"]["select_birth_year"] = "Төрсөн он сонго";
+	$lang["users"]["occupation"] = "Мэргэжил";
+	$lang["users"]["city"] = "Хот";
+	$lang["users"]["country"] = "Улс";
+	$lang["users"]["website"] = "Вэбсайт";
+	$lang["users"]["button_register_user"] = "Бүртгэх";
+	$lang["users"]["button_profile_update"] = "Шинэчилж хадгалах";
+	$lang["users"]["button_register"] = "Бүртгүүлэх";
+	$lang["users"]["profile_updated"] = "Мэдээллийг шинэчилж хадгаллаа";
+	$lang["users"]["profile_update_failed"] = "Мэдээллийг шинэчилэх явцад алдаа гарлаа.";
+	$lang["users"]["command_processed"] = "Коммандыг гүйцэтгэлээ";
+	$lang["users"]["command_failed"] = "Комманд гүйцэтгэх явцад алдаа гарлаа.";
+	$lang["users"]["short_username"] = "Хэрэглэгчийн нэр богино байна. Багадаа 5 тэмдэгтээс бүрдэх ёстой.";
+	$lang["users"]["enter_firstname"] = "Нэрээ оруулна уу";
+	$lang["users"]["enter_lastname"] = "Овогоо оруулна уу";
+	$lang["users"]["passwords_not_match"] = "Нууц үгс хоорондоо тохирохгүй байна";
+	$lang["users"]["enter_birth_year"] = "Төрсөн огноо сонгоно уу";
+	$lang["users"]["enter_occupation"] = "Мэргэжил оруулна уу";
+	$lang["users"]["enter_city"] = "Хот оруулна уу";
+	$lang["users"]["select_username"] = "Нэвтрэх нэрээ сонго";
+	$lang["users"]["date_added"] = "Бүртгүүлсэн";
+	
+	$lang["users"]["please_login"] = "Та хэрэглэгчийн эрхээр нэвтэрнэ үү.";
+?>

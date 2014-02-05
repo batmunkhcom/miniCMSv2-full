@@ -1,0 +1,32 @@
+#webCats0{
+	background-color:#bcddfc;
+	padding-left:10px;
+	padding-bottom:3px;
+	padding-top:3px;
+	display:block;
+	margin-bottom:6px;
+}
+#webCats1{
+	padding-left:10px;
+	padding-right:5px;
+	display:block;
+	font-size:10px;
+	margin-bottom:6px;
+	color:#158eff;
+}
+a.webCats1_link:link,a.webCats1_link:active,a.webCats1_link:visited{
+	font-size:10px;
+	color:#158eff;
+	text-decoration:underline;
+}
+a.webCats1_link:hover{
+	text-decoration:none;
+}
+a.webCats0_link:link,a.webCats0_link:active,a.webCats0_link:visited{
+	font-weight:bold;
+	font-size:13px;
+	color:#3f61f4;
+}
+a.webCats0_link:hover{
+	text-decoration:none;
+}

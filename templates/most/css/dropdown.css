@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+div.menusDD{
+	width:121px;
+	float:left;
+	position:relative;
+}
+.menu_active{ 
+	background-image:url(../images/topmenu_bg.gif);
+	background-repeat:no-repeat;
+	background-position:0px -18px;
+	color:#FFF;
+	text-decoration:none;
+	padding-top:14px;
+	padding-bottom:18px;
+	width:121px;
+	display:block;
+	text-align:center;
+	color:#245e36;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+	margin-bottom:2px;
+}
+div.menusDD a{
+	color:#000;
+	padding-top:14px;
+	padding-bottom:18px;
+	width:121px;
+	display:block;
+	text-align:center;
+	color:#245e36;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+	margin-bottom:3px;
+}
+div.menusDD a:hover{
+	background-image:url(../images/topmenu_bg.gif);
+	background-repeat:no-repeat;
+	color:#FFF;
+	text-decoration:none;
+}
+/* submenu nii gadna div*/
+#menusDD .menusDDsub{
+	display:none;
+	position:absolute;
+	left:0px;
+	top:47px;
+}
+.menusDDsubHeader{
+	background-image:url(../images/submenu_top.png);
+	background-repeat:no-repeat;
+	height:8px;
+	width:200px;
+}
+.menusDDsubContent{
+	background-color:#fff;
+	padding-left:10px;
+	padding-right:10px;
+	width:180px;
+	padding-bottom:10px;
+	background-image:url(../images/submenu_content_bg.jpg);
+	background-repeat:repeat-y;
+}
+/* submenu nii linknii div*/
+.menusDDsubContent div a{
+	color:#000;
+	font-weight:normal;
+	display:block;/*
+	
+	background-image:url(../images/sum_submenu.gif);
+	background-repeat:no-repeat;
+	*/
+	background-image:none;
+	background-position:2px 11px;
+	background-color:none;
+	text-align:left;
+	padding-bottom:8px;
+	padding-top:7px;
+	padding-left:20px;
+	width:160px;
+	border-bottom:1px solid #256038;
+}
+.menusDDsubContent div a:hover{
+	/*
+	background-color:#FFF;
+	background-image:url(../images/sum_submenu.gif);
+	background-repeat:no-repeat;
+	background-position:2px 11px;
+	font-weight:bold;
+	*/
+	color:#256038;
+	background-image:none;
+	font-family:Tahoma;
+}
+.menusDDsubFooter{
+	background-image:url(../images/submenu_footer.png);
+	background-repeat:no-repeat;
+	height:8px;
+	width:200px;
+}

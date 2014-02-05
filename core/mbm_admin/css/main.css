@@ -1,0 +1,53 @@
+/* CSS Document */
+body {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #000000;
+	margin:0 0 0 0;
+}
+a:link ,a:visited {
+	text-decoration: none;
+	color: #0577b8;
+}
+a:hover {
+	text-decoration: underline;
+	color: #f7941c;
+}
+a:active {
+	text-decoration: none;
+	color: #000000;
+}
+.software_name{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFFFFF;
+}.content_tbl{
+	border-collapse:collapse;
+	border:1px solid #e2e2e2;
+	padding:2px;
+}.content_tbl_1st_row{
+	height:20px;
+	background-color:#f5f5f5;
+	font-weight:bold;
+	padding-left:10px;
+}#xml_export{
+	height:300px;
+	overflow:scroll;
+	padding:5px;
+	margin-top:3px;
+}#copyright{
+	display:block;
+	padding-top:10px;
+	padding-bottom:10px;
+	height:40px;
+	background-color:#f5f5f5;
+	text-align:center;
+	border-top:2px solid #000000;
+	font-weight:bold;
+	position:fixed;
+	bottom:0px;
+	width:180px;
+}.red{
+	color:#FF0000;
+}

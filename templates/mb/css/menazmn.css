@@ -1,0 +1,23 @@
+#mainContainer{
+	margin:0 0 0 0;
+	width:950px;
+}
+
+#topTalbar a:link,#topTalbar a:active,#topTalbar a:visited{
+	color:#FFFFFF;
+}
+#topTalbar{
+	color:#FFF;
+	margin-top:6px; margin-bottom:6px;
+}
+.menu_footer{
+	width:88px;
+	text-align:center;
+	background-image:url(../images/menu_bg_footer.jpg);
+	background-repeat:repeat-x;
+	font-weight:bold;
+	height:30px;
+	color:#FFF;
+}.menu_footer a:link,.menu_footer a:active,.menu_footer a:visited{
+	color:#FFFFFF;
+}

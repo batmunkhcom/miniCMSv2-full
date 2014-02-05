@@ -1,0 +1,60 @@
+#faqsTitle{
+	background-image:url(../images/talbar_title_bg_blue.jpg);
+	background-repeat:repeat-y;
+	background-position:right;
+	background-color:#158eff;
+	height:22px;
+	color:#FFFFFF;
+	font-weight:bold;
+	padding-left:25px;
+	padding-top:3px;
+}
+#faqsQuestion{
+	padding-left:3px;
+}
+#faqsAnswer{
+	padding-left:15px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:5px;
+}
+#faqsMore{
+	padding-bottom:6px;
+	padding-top:3px;
+	text-align:center;
+}#FAQsList{
+	border:1px solid #DDDDDD;
+	margin-bottom:2px;
+	padding:5px;
+}
+.input_faqs,.select_faqs{
+	font-family:Tahoma;
+	font-size:11px;
+	border:1px solid #bcddfc;
+	height:20px;
+	font-weight:bold;
+	color:#026ed2;
+	padding-top:3px;
+	margin-top:2px;
+}
+.textarea_faqs{
+	font-family:Tahoma;
+	font-size:11px;
+	border:1px solid #bcddfc;
+	color:#026ed2;
+	padding:3px;
+	margin-top:2px;
+	overflow-y:auto;
+}.button_faqs{
+	font-family:Tahoma;
+	font-size:11px;
+	background-image:url(../images/button_bg.gif);
+	background-repeat:repeat-x;
+	padding-left:5px;
+	padding-right:5px;
+	height:22px;
+	border:1px solid #565656;
+	margin-top:4px;
+	color:#FFFFFF;
+	font-weight:bold;
+}

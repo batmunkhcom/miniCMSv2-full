@@ -1,0 +1,51 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Flash MP3 Player - Javascript Control Examples</title>
+</head>
+<body style="margin:50px;">
+<h2>Some Example Configs of the mp3player, to get you started.<br />Check the source code of this file and the xml files.</h2>
+
+
+
+<br /><br /><br />
+<h4>The config file 'config_1.xml' and the playlist 'playlist_1.xml:</h4>
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"  width="200" height="200" id="mp3player"
+		codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" >
+	<param name="movie" value="mp3player.swf?config=config_1.xml&file=playlist_1.xml" />
+	<param nam="allowScriptAccess" value="always">
+	<embed src="mp3player.swf?config=config_1.xml&file=playlist_1.xml" allowScriptAccess="always" width="200" height="200" name="mp3player"
+		type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+</object>
+
+
+
+<br /><br /><br />
+<h4>The config file 'config_2.xml' and the playlist 'playlist_2.xml:</h4>
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"  width="300" height="320" id="mp3player"
+		codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" >
+	<param name="movie" value="mp3player.swf?config=config_2.xml&file=playlist_2.xml" />
+	<param nam="allowScriptAccess" value="always">
+	<embed src="mp3player.swf?config=config_2.xml&file=playlist_2.xml" allowScriptAccess="always" width="300" height="320" name="mp3player"
+		type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+</object>
+
+
+
+<br /><br /><br />
+<h4>Just a single MP3, and no configuration file:</h4>
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"  width="400" height="20" id="mp3player"
+		codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" >
+	<param name="movie" value="mp3player.swf?file=../../mp3/homeland.mp3" />
+	<param nam="allowScriptAccess" value="always">
+	<embed src="mp3player.swf?file=../../mp3/homeland.mp3" allowScriptAccess="always" width="400" height="20" name="mp3player"
+		type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+</object>
+
+
+
+</body>
+</html>

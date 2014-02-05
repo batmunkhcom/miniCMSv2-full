@@ -1,0 +1,57 @@
+.bbcodeTable{
+	border-collapse:collapse;
+	padding:5px;
+}.bbcodeTitle{
+	background-image:url(../images/forum/bg_listheader.jpg);
+	background-repeat:repeat-x;
+	color:#fff;
+	border:1px solid #cc3412;
+}
+.bbcodeRow1{
+	width:200px;
+	vertical-align:top;
+}
+.bbcodeRow1{
+	vertical-align:top;
+}
+.bbcodeTitles{
+}
+.bbcode_gensmall{
+	color:#333333;
+}
+.bbcode_genmed{
+	font-size:10px;
+}
+a.bbcode_nav:link,a.bbcode_nav:visited{
+	text-decoration:none;
+}
+a.bbcode_nav:hover{
+	text-decoration:underline;
+}
+.bbcode_input{
+	border:1px solid #DDDDDD;
+	background-color:#f5f5f5;
+	padding:3px;
+	font-family:Tahoma;
+	font-size:11px;
+	width:600px;
+}
+.bbcode_textarea{
+	border:1px solid #333333;
+	padding:3px;
+	font-family:Tahoma;
+	font-size:11px;
+	width:600px;
+}
+.bbcode_input_help{
+	border:1px solid #DDDDDD;
+	font-family:Tahoma;
+	color:#FF0000;
+	width:600px;
+}
+.bbcode_button{
+	background-image:url(../images/forum/bg_listheader.jpg);
+	background-repeat:repeat-x;
+	color:#fff;
+	border:1px solid #cc3412;
+}

@@ -1,0 +1,167 @@
+/******************************************************************************************************
+//	Name: ubr.css
+//	Revision: 1.1
+//	Date: 8:12 PM Thursday, August 28, 2008
+//	Link: http://uber-uploader.sourceforge.net
+//	Developer: Peter Schmandra
+//	Description: Provide some basic styling
+//
+//	BEGIN LICENSE BLOCK
+//	The contents of this file are subject to the Mozilla Public License
+//	Version 1.1 (the "License"); you may not use this file except in
+//	compliance with the License. You may obtain a copy of the License
+//	at http://www.mozilla.org/MPL/
+//
+//	Software distributed under the License is distributed on an "AS IS"
+//	basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See
+//	the License for the specific language governing rights and
+//	limitations under the License.
+//
+//	Alternatively, the contents of this file may be used under the
+//	terms of either the GNU General Public License Version 2 or later
+//	(the "GPL"), or the GNU Lesser General Public License Version 2.1
+//	or later (the "LGPL"), in which case the provisions of the GPL or
+//	the LGPL are applicable instead of those above. If you wish to
+//	allow use of your version of this file only under the terms of
+//	either the GPL or the LGPL, and not to allow others to use your
+//	version of this file under the terms of the MPL, indicate your
+//	decision by deleting the provisions above and replace them with the
+//	notice and other provisions required by the GPL or the LGPL. If you
+//	do not delete the provisions above, a recipient may use your
+//	version of this file under the terms of any one of the MPL, the GPL
+//	or the LGPL.
+//	END LICENSE BLOCK
+***************************************************************************************************************/
+
+.ubrBody {
+	margin: 0 0 0 0;
+	font-family:Tahoma;
+	font-size:11px;
+}
+
+.ubrWrapper {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ubrDebug {
+	font-family:Tahoma;
+	font-size:11px;
+	background-color: #FFFFFF;
+	border: 1px solid #898989;
+	width: 660px;
+	overflow: auto;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ubrAlert {
+	font-family:Tahoma;
+	font-size:11px;
+}
+
+.ubrFinishedData {
+	background-color: #b3b3b3;
+	border: 1px solid #898989;
+	width: 660px;
+
+}
+
+.ubrFinishedData  th{
+	text-align: center;
+	background-color: #bbbbbb;
+	font-weight: bold;
+}
+
+.ubrFinishedOdd{
+	text-align: center;
+	background-color: #dddddd;
+}
+
+.ubrFinishedEven{
+	text-align: center;
+	background-color: #eeeeee;
+}
+
+.ubrUploadData {
+	background-color: #b3b3b3;
+	border: 1px solid #898989;
+	width: 350px;
+}
+
+.ubrUploadDataLabel {
+	background-color: #dddddd;
+	font-family:Tahoma;
+	font-size:11px;
+	width: 50%;
+	text-align: left;
+	font-weight: bold;
+}
+
+.ubrUploadDataInfo{
+	background-color: #dddddd;
+	font-family:Tahoma;
+	font-size:11px;
+	width: 50%;
+	text-align: center;
+}
+
+.ubrBar1 {
+	background-color: #0099ff;
+	position: relative;
+	text-align: left;
+	height: 20px;
+	border: 1px solid #1b5072;
+	z-index: 5;
+	background-image:url(../templates/shareaz_cgi/images/scrollbar1.jpg);
+	background-repeat:no-repeat;
+	/*background-image:url(images/progress_bar_white.gif);*/
+	/*layer-background-image:url(images/progress_bar_white.gif);*/
+}
+
+.ubrBar2 {
+	background-color: #000099;
+	position: relative;
+	text-align: left;
+	height: 20px;
+	width: 0%;
+	z-index: 6;
+	background-image:url(../templates/shareaz_cgi/images/scrollbar1a.jpg);
+	background-repeat:no-repeat;
+	/*background-image:url(images/progress_bar_blue.gif);*/
+	/*layer-background-image:url(images/progress_bar_blue.gif);*/
+}
+
+.ubrUploadSlot{
+	font-family:Tahoma;
+	font-size:11px;
+	border:1px solid #DDDDDD;
+	background-color:#FFFFFF;
+	padding:3px;
+	height:17px;
+	margin-top:6px;
+}
+
+.ubrError {
+	color: red;
+}
+
+.ubrWarning{
+	color: yellow;
+}
+.input_button{
+	font-family:Tahoma;
+	font-size:11px;
+	border:1px solid #DDDDDD;
+	background-color:#F5F5F5;
+	padding-left:10px;
+	padding-right:10px;
+}
+.input_text{
+	font-family:Tahoma;
+	font-size:11px;
+	border:1px solid #DDDDDD;
+	padding:3px;
+}

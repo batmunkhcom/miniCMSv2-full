@@ -1,0 +1,104 @@
+#weatherLocationsCol_0{
+	display:block;
+}
+#weatherLocationsCol_1{
+	display:block;
+	position:absolute;
+	width:150px;
+	left:240px;
+	top:0px;
+}
+#locationTitle{
+	font-size:14px;
+	font-weight:bold;
+	color:#F7941c;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+#weatherContainer{
+	position:relative;
+	background-color:#bccf42;
+	border:1px solid #bccf42;
+	width: 470px;
+	display:block;
+	height:200px;
+	line-height:17px;
+	background-image:url(../images/bg1.jpg);
+	background-repeat:repeat-x;
+}
+#weatherCol1{
+	position:absolute;
+	left:0px;
+	top:0px;
+	padding:5px;
+	width:225px;
+}
+#weatherCol2{
+	position:absolute;
+	left:225px;
+	top:0px;
+	padding:5px;
+}
+.weatherTitle{
+	font-size:11px;
+	font-family:Tahoma;
+	color:#0000FF;
+	padding-bottom:3px;
+}
+.weatherValue{
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#ffffff;
+	margin-top:5px;
+	margin-bottom:15px;
+}
+.weatherValueRight{
+	width:50px;
+	height:20px;
+	text-align:center;
+	margin:5px;
+	position:absolute;
+	left:90px;
+	top:40px;
+	font-weight:bold;
+	color:#333;
+	font-size:28px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#weatherTomorrow{
+	width:100px;
+	padding:2px;
+	border:1px solid #9ac012;
+	background-color:#ecfbb6;
+}
+#weatherTomorrowTitle{
+	font-weight:bold;
+	font-size:13px;
+	margin-bottom:6px;
+	text-align:center;
+}
+
+#azmnWeather{
+	text-align:left;
+	width:240px;
+	height:195px;
+	border:1px solid #DDDDDD;
+	color:#333;
+	padding:5px;
+	margin-top:10px;
+	background-color:#FFF;
+}
+#WeatherTitle{
+	color:#000000;
+	font-weight:bold;
+}
+#WeatherBox{
+	color:#000000;
+}#WeatherBox img {
+	float:left;
+}#WeatherBox a:link,#WeatherBox a:visited {
+	float:left;
+	font-weight:bold;
+	color:#999999;
+}

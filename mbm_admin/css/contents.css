@@ -1,0 +1,95 @@
+h2{
+	color:#f7941c;
+}
+#Paging{
+	padding:3px; 
+	text-align:center;
+	color:#333333;
+	margin-top:20px;
+	margin-bottom:6px;
+	display:block;
+	clear:both;
+}
+#page_numbers{
+	padding:3px;
+	margin-left:2px;
+	border:1px solid #DDDDDD;
+	background-color:#f5f5f5;
+}
+#page_numbers:hover{
+	background-color:#e2e2e2;
+}
+.video_title{
+	font-weight:bold;
+	display:block;
+	color:#0033cc;
+	font-size:14px;
+	padding-bottom:5px;
+}.e2{
+	color:#e2e2e2;
+}.title {
+	font-family: Tahoma;
+	font-size: 14px;
+	font-weight: bold;
+}
+.gold {
+	color: #f7941c;
+}
+#content_title{
+	font-weight:bold;
+	font-family:Tahoma;
+	color:#000000;
+	padding-top:2px;
+	text-transform:capitalize;
+}.tbl_list_items_header{
+	height:21px;
+	background-color:#f5f5f5;
+	font-weight:bold;
+	color:#003663;
+}.bold{
+	font-weight:bold;
+}.darkblue{
+	color:#003663;
+}.white{
+	color:#FFFFFF;
+}
+#title_list{
+	text-align:center;
+	font-weight:bold;
+	color:#0099FF;
+	font-size:14px;
+	margin-top:12px;
+	margin-bottom:15px;
+}
+#title_box{
+	padding:1px;
+	border:1px solid #DDDDDD;
+	font-weight:bold;
+	float:left;
+	width:60px;
+	background-color:#f5f5f5;
+	vertical-align:text-bottom;
+}#tbl_list_items{
+	border:1px solid #DDDDDD;
+	padding:3px;
+}
+#insert_status{
+	padding:5px;
+	border:1px solid #f2a721;
+	color:#003663;
+	font-weight:bold;
+	background-color:#f7ca62;
+	text-align:center;
+	margin-top:6px;
+	margin-bottom:6px;
+}
+.list_header{
+	height:25px;
+	font-weight:bold;
+	background-color:#DDDDDD;
+	color:#0577b8;
+	text-align:left;
+}.tblContents{
+	border:1px solid #DDDDDD;
+	margin-bottom:6xp;
+}

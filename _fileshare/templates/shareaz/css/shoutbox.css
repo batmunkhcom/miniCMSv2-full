@@ -1,0 +1,51 @@
+#shoutboxTitle{
+	display:none;
+	width:220px;
+	background-image:url(../images/bg_title_g.jpg);
+	background-repeat:no-repeat;
+	height:36px;
+	padding-left:20px;
+	color:#FFFFFF;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding-top:10px;
+}
+.shoutbox_input{
+	font-family:Tahoma;
+	font-size:11px;
+	border:1px solid #9ac012;
+	height:20px;
+	font-weight:bold;
+	color:#333333;
+	padding-top:3px;
+	margin-top:2px;
+}
+.shoutbox_textarea{
+	font-family:Tahoma;
+	font-size:11px;
+	border:1px solid #9ac012;
+	font-weight:bold;
+	color:#333333;
+	padding:3px;
+	margin-top:2px;
+}.shoutbox_button{
+	font-family:Tahoma;
+	font-size:11px;
+	background-image:url(../images/button_bg.gif);
+	background-repeat:repeat-x;
+	padding-left:5px;
+	padding-right:5px;
+	height:22px;
+	border:1px solid #9ac012;
+	margin-top:4px;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+#shoutboxResult{
+	display:block;
+	width:220px;
+	height:300px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	margin-right:2px;
+}

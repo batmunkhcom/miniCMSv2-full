@@ -1,0 +1,61 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Flash MP3 Player - Javascript Control Examples</title>
+</head>
+<body style="margin:50px;">
+<h2>Javascript control examples.<br />Check the source code for a small explanation.</h2>
+
+
+<!-- this is the small javascript that sends the controls to flash -->
+
+<script>
+function controlPlayer(func,param) {
+	thisMovie("mp3player").jsControl(func,param);
+}
+
+function thisMovie(movieName) {
+    if (navigator.appName.indexOf("Microsoft") != -1) {
+        return window[movieName]
+    }
+    else {
+        return document[movieName]
+    }
+}
+</script>
+
+
+
+
+<!-- this is the embed code for the mp3player -->
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"  width="300" height="150" id="mp3player"
+		codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" >
+	<param name="movie" value="mp3player.swf" />
+	<param nam="allowScriptAccess" value="always">
+	<embed src="mp3player.swf" allowScriptAccess="always" width="300" height="150" name="mp3player"
+		type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+</object>
+
+
+
+
+<!-- this list contains an example of all javascript controls -->
+<!-- there are 5 controls: pause, scrub, load, play and link -->
+<!-- especially the 'load' function is handy: you could make a list of playlists -->
+
+<ul>
+	<li><a href="javascript:controlPlayer('pause')">Toggle the pause state.</a></li>
+	<li><a href="javascript:controlPlayer('scrub',5)">Scrub to 5 seconds inside the song</a></li>
+	<li><a href="javascript:controlPlayer('load','../../mp3/homeland.mp3')">load the HomeLand  mp3 file</a></li>
+	<li><a href="javascript:controlPlayer('load','sample.xml')">load the playlist file 'sample.xml'</a></li>
+	<li><a href="javascript:controlPlayer('play',1)">Play the 2nd song of the playlist</a></li>
+	<li><a href="javascript:controlPlayer('link',1)">Go to the 2nd link from the playlist</a></li>
+	<li><a href="javascript:controlPlayer('volume',50)">set the volume to 50%</a></li>
+</ul>
+
+
+
+
+</body>
+</html>

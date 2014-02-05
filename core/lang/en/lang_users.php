@@ -1,0 +1,79 @@
+<?
+	$lang['users']['user_add'] = "Add member";
+	$lang['users']['users_list'] = "Members";
+	$lang['user']['update_profile'] = "Update profile";
+	# modules/users/registration.php
+	$lang["users"]["verification_txt"] = "Verification link: {VERIFICATION_LINK} <br /><br />If you do not understand above link please copy and paste  {VERIFICATION_LINK} this link in addressbar of your browser to activate your new account.";
+	$lang["users"]["registration_successfull"] = "You have been registered but you still have not been activated. Verification email has been sent. Please check your email and activate your account using verifiction link.";
+	$lang["users"]["invalid_username_format"] = "Username must be started as any alphabetic character and must consist of letters and numbers.";
+	$lang["users"]["already_exists_username"] = "The username already used by someone. Please choose another username.";
+	$lang["users"]["already_exists_email"] = "The email already used by someone. If you already registered and forgot your login information please recover it. If you have forgotton your username please contact to admin using your registered email.";
+	$lang["users"]["invalid_email"] =  "Invalid email.";
+	$lang["users"]["error_occurred"] = "Some error occurred. Please try again.";
+	$lang["users"]["error_passwords_not_match"] = "Passwords do not match.";
+	$lang["users"]["error_avatar_dimensions"] = "Avatar maximum height is ".AVATAR_HEIGHT."рх and width is ".AVATAR_WIDTH."рх.";
+	$lang["users"]["error_max_avatar_filesize"] = "Avatar image maximum size is ".ceil(AVATAR_FILESIZE/1024)."kb .";
+	$lang["users"]["no_such_user_exists"] = "No such user found.";	
+	$lang["users"]["command_avatar_uploaded"] = "Avatar has been uploaded.";
+	
+	$lang["users"]["avatar_current"] = "Current avatar";
+	$lang["users"]["button_avatar_upload"] = "Update avatar";
+	#user login
+	$lang["users"]["login_title"] = "Members area";
+	$lang["users"]["login_username"] = "Username";
+	$lang["users"]["login_password"] = "Password";
+	$lang["users"]["login_signup"] = "Register now";
+	$lang["users"]["login_forgotpass"] = "Recover password";
+	$lang["users"]["login_button"] = "Login";
+	$lang["users"]["user_avatar"] = "Avatar";
+	$lang["users"]["user_profile"] = "Personal information";
+	$lang["users"]['user_blog'] = "Blog";
+	$lang["users"]['normal_content_add'] = "Add normal content";
+	$lang["users"]['normal_content_list'] = "Normal contents";
+	$lang["users"]['photo_content_add'] = "Add photo content";
+	$lang["users"]['photo_content_list'] = "Photo contents";
+	$lang["users"]['video_content_add'] = "Add video content";
+	$lang["users"]['video_content_list'] = "Video contents";
+	$lang["users"]['photo_add'] = "Add photo";
+	$lang["users"]['user_logout'] = "Logout";
+	
+	$lang["users"]["sponsor"] = "Refered by: ";
+	$lang["users"]["username"] = "Username";
+	$lang["users"]["password"] = "Password";
+	$lang["users"]["verify_password"] = "Verify password";
+	$lang["users"]["email"] = "Email";
+	$lang["users"]["firstname"] = "Firstname";
+	$lang["users"]["lastname"] = "Lastname";
+	$lang["users"]["birthday"] = "Bithday";
+	$lang["users"]["gender"] = "Gender";
+	$lang["users"]["male"] = "Male";
+	$lang["users"]["female"] = "Female";
+	$lang["users"]["mobile"] = "Mobile";
+	$lang["users"]["phone"] = "Phone";
+	$lang["users"]["fax"] = "Fax";
+	$lang["users"]["yim"] = "YIM";
+	$lang["users"]["msn"] = "MSN";
+	$lang["users"]["select_birth_year"] = "Select birth year";
+	$lang["users"]["occupation"] = "Occupation";
+	$lang["users"]["city"] = "City";
+	$lang["users"]["country"] = "Country";
+	$lang["users"]["website"] = "Website";
+	$lang["users"]["button_register_user"] = "Register now";
+	$lang["users"]["button_profile_update"] = "Update profile";
+	$lang["users"]["button_register"] = "Register";
+	$lang["users"]["profile_updated"] = "Profile has been updated.";
+	$lang["users"]["profile_update_failed"] = "Update profile failed.";
+	$lang["users"]["command_processed"] = "Command processed.";
+	$lang["users"]["command_failed"] = "Command failed.";
+	$lang["users"]["short_username"] = "Too short username. Username must consist of at least 5 characters and must start as letter.";
+	$lang["users"]["enter_firstname"] = "Insert firstname";
+	$lang["users"]["enter_lastname"] = "Insert lastname";
+	$lang["users"]["passwords_not_match"] = "Passwords do not match";
+	$lang["users"]["enter_birth_year"] = "Select birth year";
+	$lang["users"]["enter_occupation"] = "Select occupation";
+	$lang["users"]["enter_city"] = "Insert city";
+	$lang["users"]["select_username"] = "Choose username";
+	$lang["users"]["date_added"] = "Date registered";
+	
+	$lang["users"]["please_login"] = "Please login first.";
+?>

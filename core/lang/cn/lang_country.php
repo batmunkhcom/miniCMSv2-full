@@ -1,0 +1,3 @@
+<?
+	$lang["country"]["ip"] = "IP";
+?>

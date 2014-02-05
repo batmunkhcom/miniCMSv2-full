@@ -1,0 +1,79 @@
+<?
+	$lang['users']['user_add'] = "新增会员";
+	$lang['users']['users_list'] = "成员";
+	$lang['user']['update_profile'] = "更新个人资料";
+	# modules/users/registration.php
+	$lang["users"]["verification_txt"] = "验证连结: {VERIFICATION_LINK} <br /><br />如果您不明白上述链接，请复制并粘贴  {VERIFICATION_LINK} t此链接在浏览器地址栏中的启动您的新帐户。";
+	$lang["users"]["registration_successfull"] = "您已注册，但您仍然没有被激活。验证电子邮件已发送。请检查您的电子邮件并启用您的帐户使用验证链接。";
+	$lang["users"]["invalid_username_format"] = "用户必须开始任何字母字符，并且必须包括字母和数字。";
+	$lang["users"]["already_exists_username"] = "用户名已经有人使用。请选择其他用户名。";
+	$lang["users"]["already_exists_email"] = "电子邮件已有人使用。如果您已经注册和忘记了您的登录信息，请恢复。如果您忘记您的用户名，请联系，以管理使用您注册的电子邮件。";
+	$lang["users"]["invalid_email"] =  "无效的电子邮件。";
+	$lang["users"]["error_occurred"] = "某些错误发生。请再试一次。";
+	$lang["users"]["error_passwords_not_match"] = "密码不匹配。";
+	$lang["users"]["error_avatar_dimensions"] = "头像最大高度是 ".AVATAR_HEIGHT."рх and width is ".AVATAR_WIDTH."рх.";
+	$lang["users"]["error_max_avatar_filesize"] = "头像图片的最大尺寸是 ".ceil(AVATAR_FILESIZE/1024)."kb .";
+	$lang["users"]["no_such_user_exists"] = "没有这样的用户发现。";	
+	$lang["users"]["command_avatar_uploaded"] = "头像已上传。";
+	
+	$lang["users"]["avatar_current"] = "目前的化身";
+	$lang["users"]["button_avatar_upload"] = "更新化身";
+	#user login
+	$lang["users"]["login_title"] = "会员区";
+	$lang["users"]["login_username"] = "用户名";
+	$lang["users"]["login_password"] = "密码";
+	$lang["users"]["login_signup"] = "立即注册";
+	$lang["users"]["login_forgotpass"] = "恢复密码";
+	$lang["users"]["login_button"] = "注册";
+	$lang["users"]["user_avatar"] = "头像";
+	$lang["users"]["user_profile"] = "个人信息";
+	$lang["users"]['user_blog'] = "博客";
+	$lang["users"]['normal_content_add'] = "购买正常内容";
+	$lang["users"]['normal_content_list'] = "正常内容";
+	$lang["users"]['photo_content_add'] = "添加照片的内容";
+	$lang["users"]['photo_content_list'] = "图片内容";
+	$lang["users"]['video_content_add'] = "添加视频内容";
+	$lang["users"]['video_content_list'] = "视频内容";
+	$lang["users"]['photo_add'] = "添加照片";
+	$lang["users"]['user_logout'] = "注销";
+	
+	$lang["users"]["sponsor"] = "指由: ";
+	$lang["users"]["username"] = "用户名";
+	$lang["users"]["password"] = "密码";
+	$lang["users"]["verify_password"] = "确认密码";
+	$lang["users"]["email"] = "电邮";
+	$lang["users"]["firstname"] = "名字";
+	$lang["users"]["lastname"] = "姓";
+	$lang["users"]["birthday"] = "生日";
+	$lang["users"]["gender"] = "性别";
+	$lang["users"]["male"] = "马累";
+	$lang["users"]["female"] = "女性";
+	$lang["users"]["mobile"] = "移动";
+	$lang["users"]["phone"] = "电话";
+	$lang["users"]["fax"] = "传真";
+	$lang["users"]["yim"] = "YIM";
+	$lang["users"]["msn"] = "MSN";
+	$lang["users"]["select_birth_year"] = "选择出生年份";
+	$lang["users"]["occupation"] = "职业";
+	$lang["users"]["city"] = "城市";
+	$lang["users"]["country"] = "国家";
+	$lang["users"]["website"] = "网站";
+	$lang["users"]["button_register_user"] = "立即注册";
+	$lang["users"]["button_profile_update"] = "更新个人资料";
+	$lang["users"]["button_register"] = "注册";
+	$lang["users"]["profile_updated"] = "个人资料已更新";
+	$lang["users"]["profile_update_failed"] = "更新个人资料失败。";
+	$lang["users"]["command_processed"] = "命令处理。";
+	$lang["users"]["command_failed"] = "命令失败。";
+	$lang["users"]["short_username"] = "太短的用户名。用户名必须由至少5个字符，并且必须开始为信。";
+	$lang["users"]["enter_firstname"] = "插入名字";
+	$lang["users"]["enter_lastname"] = "插入姓";
+	$lang["users"]["passwords_not_match"] = "密码不匹配";
+	$lang["users"]["enter_birth_year"] = "选择出生年份";
+	$lang["users"]["enter_occupation"] = "选择职业";
+	$lang["users"]["enter_city"] = "插入城市";
+	$lang["users"]["select_username"] = "选择用户名";
+	$lang["users"]["date_added"] = "登记日期";
+	
+	$lang["users"]["please_login"] = "请先登陆。";
+?>

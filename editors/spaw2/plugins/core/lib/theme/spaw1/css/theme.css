@@ -1,0 +1,160 @@
+.spaw1 td,.spaw1 div,.spaw1 span,.spaw1 p
+{
+  font-family: Verdana, Tahoma, Arial, Helvetica, Sans-serif;
+  font-size: 10px;
+  color: #000000;
+  padding: 0px 0px 0px 0px;  
+  margin: 0px 0px 0px 0px;  
+}
+.spaw1 iframe, .spaw1 textarea
+{
+  border: 0px;
+  margin: 0px;
+}
+.spaw1 select
+{
+  font-family: Verdana, Tahoma, Arial, Helvetica, Sans-serif;
+  font-size: 10pt;
+  vertical-align: middle;
+  padding: 0px;
+}
+td.spaw1maintoolbar
+{
+  background: url(../img/toolbar_background.gif);
+  padding: 0px 5px 0px 5px;
+}
+table.spaw1toolbar
+{
+  height: 32px; 
+  vertical-align: middle; 
+  white-space: nowrap;
+  float: left;
+  margin: 2px 0px 0px 0px;
+}
+.spaw1toolbar img
+{
+  vertical-align: middle;
+}
+td.spaw1tabstrip
+{
+  height: 26px;
+  font-size: 9px; 
+  white-space: nowrap;
+  vertical-align: bottom;
+  border-bottom: 3px solid #EDEBEC;
+  background: url(../img/toolbar_background.gif);
+  padding: 2px 5px 0px 5px;
+}
+td.spaw1maintoolbarfloating
+{
+  background: #EDEBEC;
+  width: 500px;
+  padding: 5px 5px 5px 5px;
+  border: 1px ridge #EDEBEC;
+}
+table.spaw1toolbarfloating
+{
+  vertical-align: middle;
+  float: left; 
+  white-space: nowrap;
+}
+
+.spaw1toolbarfloating img
+{
+  vertical-align: middle;
+}
+
+td.spaw1tabstripfloating
+{
+  height: 26px;
+  font-size: 9px; 
+  white-space: nowrap;
+  vertical-align: bottom;
+  border-bottom: 3px solid #EDEBEC;
+  padding: 2px 5px 0px 5px;
+  background: url(../img/toolbar_background.gif);
+}
+td.spaw1modestrip
+{
+  height: 26px;
+  font-size: 9px; 
+  white-space: nowrap;
+  vertical-align: top;
+  text-align: right;
+}
+td.spaw1statusbar
+{
+  height: 20px;
+  white-space: nowrap;
+  background: #EDEBEC;
+  padding: 0px 2px 2px 3px;
+  border-top: 1px solid #d2d2d2;
+  background: url(../img/toolbar_background.gif);
+}
+table.spaw1framefloating
+{
+  border: 1px solid #b2b2b2;
+}
+table.spaw1frame
+{
+  border: 1px solid #b2b2b2;
+}
+.spaw1editor
+{
+}
+.spaw1activetab
+{
+  font-size: 10px; 
+  height: 20px; 
+  vertical-align: middle; 
+  background: url(../img/tab_active_bg.gif);
+  white-space: nowrap;
+}
+.spaw1tab
+{
+  font-size: 10px; 
+  height: 20px; 
+  vertical-align: middle; 
+  background: url(../img/tab_inactive_bg.gif);
+  white-space: nowrap;
+}
+.spaw1status
+{
+  font-size: 11px; 
+  height: 18px;
+  padding-right: 10px;  
+}
+.spaw1contextmenu
+{
+  background: url(../img/contextbg.gif);
+  border: 1px solid #b2b2b2;
+  font-family: Verdana, Tahoma, Arial, Helvetica, Sans-serif;
+  font-size: 12px;
+  padding: 5px 0px 5px 0px;
+}
+.spaw1contextmenuitem
+{
+  font-size: 12px;
+  /*background: #EDEBEC;*/
+  padding: 2px 10px 2px 10px;
+}
+.spaw1contextmenuitemover
+{
+  font-size: 12px;
+  background: #0000dd;
+  color: white;
+  padding: 2px 10px 2px 10px;
+}
+.spaw1checkmark
+{
+  margin: 0px 13px 0px 0px;
+}
+.spaw1contextmenuseparator
+{
+  border-bottom: 1px solid #b2b2b2;
+}
+.spaw1contextmenuseparator:hover
+{
+  background: #EDEBEC;
+  border-bottom: 1px solid #b2b2b2;
+}

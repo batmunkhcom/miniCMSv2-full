@@ -1,0 +1,15 @@
+.countryCom{
+	cursor:pointer;
+}
+#divResult{
+	width:150px;
+	padding:5px;
+	border:1px solid #DDD;
+	background-color:#FFF;
+	height:200px;
+	overflow-y:auto;
+	margin:5px;
+	left:280px;
+	top:10px;
+	position:absolute;
+}

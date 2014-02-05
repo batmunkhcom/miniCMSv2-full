@@ -1,0 +1,95 @@
+#HOME3BANNERS h3,#HOME3BANNERS h3 a{
+	color:#245e36;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding-bottom:2px;
+	padding-top:2px;
+	font-size:12px;
+	font-family:Tahoma;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+.titleB{
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+	margin-bottom:25px;
+}
+.titleHome{
+	color:#245e36;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding-bottom:6px;
+	padding-top:6px;
+	margin-bottom:6px;
+	border-bottom:1px solid #ccc;
+}
+a.copyright:link,a.copyright:visited,a.copyright:active,
+a.menuFooter:link,a.menuFooter:visited,a.menuFooter:active{
+	color:#245e36;
+	font-size:11px;
+	padding-left:20px;
+	padding-right:20px;
+}
+a.copyright:link,a.copyright:visited,a.copyright:active{
+	color:#ccc;
+	font-size:11px;
+}
+a.copyright:hover,a.menuFooter:hover{
+	color:#333;
+	text-decoration:none;
+}
+
+#LEFTMENU{
+	margin-bottom:20px;
+	margin-top:0px;
+	padding-top:4px;
+}
+.titleLeft{
+	color:#245e36;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding-bottom:12px;
+	padding-left:10px;
+}
+a.menuLeft:link,a.menuLeft:visited,a.menuLeft:active{
+	color:#7c7d7c;
+	border-bottom:1px solid #ebebeb;
+	padding-left:30px;
+	display:block;
+	padding-bottom:10px;
+	padding-top:10px;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+}
+a.menuLeft:hover{
+	color:#245e36;
+	background-image:url(../images/sum_leftmenu.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+.menuleft_selected{
+	border-bottom:1px solid #ebebeb;
+	padding-left:30px;
+	display:block;
+	padding-bottom:10px;
+	padding-top:10px;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+	color:#245e36;
+	background-image:url(../images/sum_leftmenu.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+a.subM:link,a.subM:visited{
+	padding-left:50px;
+}
+#mainContentTalbar{
+	height:550px;
+	overflow-y:auto;
+	padding-right:10px;
+}
+#moreContentComments{ display:none;}

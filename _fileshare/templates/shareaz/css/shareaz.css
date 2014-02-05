@@ -1,0 +1,29 @@
+.topmenu{
+	text-align:center;
+	font-weight:bold;
+	text-transform:capitalize;
+	background-image:url(../images/menutop_bg.jpg);
+	background-repeat:repeat-x;
+}
+.topmenu:hover{
+	background-image:url(../images/menutop_bg.jpg);
+	background-position: 0px -25px;
+	background-color:#fbc583;
+}
+#uploadResult{
+	display:none; 
+	border:1px solid #fe9b1f;
+	background-color:#fce0be;
+	padding:5px;
+	text-align:center;
+	margin-bottom:12px;
+	margin-top:12px;
+}
+#error{
+	background-color:#f5f5f5;
+	border:1px solid #DDDDDD;
+	padding:5px;
+	font-weight:bold;
+	color:red;
+	text-align:center;
+}

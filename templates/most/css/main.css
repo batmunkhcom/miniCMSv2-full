@@ -1,0 +1,84 @@
+body {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #5d5d5d;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:10px;
+	background-color:#FFF;
+}
+a:link, a:visited {
+	text-decoration: none;
+	color: #245e36;
+}
+a:hover {
+	text-decoration: underline;
+	color: #245e36;
+}
+a:active {
+	text-decoration: none;
+	color: #FF0000;
+}
+.bold{
+	font-weight:bold;
+}.black{
+	color:#000000;
+}.red{
+	color:#FF0000;
+}.white{
+	color:#FFFFFF;
+}.border_talbar{
+	border:1px solid #dddddd;
+}.price{
+	color:#f7941c;
+	font-weight:bold;
+	font-size:14px;
+}.old_price{
+	text-decoration:line-through;
+}
+#loading {
+	position:absolute;
+	left:401px;
+	top:343px;
+	width:261px;
+	height:50px;
+	z-index:1;
+	border:1px solid #DDDDDD;
+	background-color:#eeeeee;
+	visibility:hidden;
+}
+
+/*send to friend start*/
+#send2Friend{
+	display:none;
+	width:200px;
+	position:absolute;
+	padding:5px;
+	top:5px;
+	left:130px;
+	background-color:#c8e3f1;
+	border:1px solid #378cc5;
+	cursor:auto;
+}
+#send2Friend_title{
+	display:none;
+}
+.send2Friend_input{
+	border:1px solid #378cc5;
+	background-color:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color: #378cc5;
+	padding:3px;
+	width:180px;
+}
+.send2Friend_submit{
+	border:1px solid #378cc5;
+	background-color:#e2e2e2;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	padding:3px;
+}
+/*send to friend end*/

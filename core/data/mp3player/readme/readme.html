@@ -1,0 +1,116 @@
+<html>
+<head>
+
+    <title>ReadMe: Flash MP3 Player 2.3</title>
+
+    <style type="text/css">    body  {
+       color: #000000;	   margin: 0;	   padding: 0;	   font-family: Arial, sans-serif;	   font-size: 13px;	   line-height: 18px;	   background-color: #eeeeee;    }    h1 {
+       margin-top: 40px;
+       line-height: 24px;
+       border-bottom: 2px solid #006699; 	   font-size: 20px;    }
+    h2 {
+       margin-top: 50px;	   font-size: 16px;
+    }    p {	   margin-top: 5px;	   margin-bottom: 15px;    }    a {	   color: #006699;    }    a:hover { 
+       color: #000000;    }    pre {	   margin-top: 5px;	   margin-bottom: 15px;	   font-family: monospace;	   font-size: 12px;	   color: #006699;    }    ul {	   margin: 5px 0 15px 50px;
+	   padding: 0;	   list-style-type: square;    }
+        #wrapper {	   width: 700px;	   padding: 10px 50px;	   text-align: left;	   margin: 0 auto;	   background-color: white;    }    #lead {	   font-weight: bold;	   font-style: italic;    }    #footer {
+       margin-top: 60px;	   font-size: 11px;	   clear: both;	   width: 480px;	   padding-bottom: 5px;    }
+    </style>
+    
+</head>
+<body>
+<div id="wrapper">
+
+
+
+    <h1>README: FLASH MP3 PLAYER 2.3</h1>
+    <p id="lead">Thanks for downloading my Flash MP3 Player! The player supports streaming playback, RSS/XSPF playlists, various playmodes, color/size customization and a javascript API. Both the configuration options and support for dynamic webservices have been greatly improved in this update. This mp3player also replaces the Flash Single MP3 Player, whose functionality is fully incorporated. Contents of this readme:</p>
+    <ul>
+        <li><a href="#licensing">Licensing information</a></li>
+        <li><a href="#html">Installing for HTML</a></li>
+        <li><a href="#cms">Installing for a CMS or profile page</a></li>
+        <li><a href="#cms">Installing for a single MP3</a></li>
+        <li><a href="#flash">Installing inside a Flash Movie</a></li>
+        <li><a href="#version">Version History</a></li>
+        <li><a href="#extras">Extras</a></li>
+    </ul>
+
+
+    <h2 id="licensing">LICENSING INFORMATION</h2>
+    <p>This script is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/">Creative Commons License</a>. It allows you to use, modify and redistribute the script as long as you use it non-commercially and credit me as the author. For commercial use, I distribute licenses of the script at a fee of 15 euros. One license applies to a single project, and you don't have to credit me as the author anymore. Please <a href="mailto:mail@jeroenwijering.com">contact me</a> for obtaining licenses!</p>
+    
+
+    <h2 id="html">INSTALLING FOR HTML</h2>
+    <p>All settings of the mp3player can be made at three different places: in the config.xml file, the playlist.xml file and the mp3player.html file. You can open all three files in a text editor. I've added comments in these files to explain all settings. The config.xml file contains all settings relating to the colors and behavior of the mp3player. The playlist.xml contains a list of all songs and links in the playlist.</p>
+
+    <p>If you want to use the mp3player on your own website, you can put all MP3 files in the 'mp3' folder and upload everything to your website. Make sure you've also added the 'mp3/' directory to the locations in the playlist, like I did!</p>
+
+    <h2 id="cms">INSTALLING FOR A CMS OR PROFILE PAGE</h2>
+    <p>If you want to use the mp3player on a profile site like MySpace, or in a content management system like WordPress, you can put all mp3 files, plus the mp3player.swf/config.xml/playlist.xml to a suitable place on the website or free file service. You need to refer to the mp3 files in the playlist with the full pathname (so including the http://www.. part).</p> 
+    
+    <p>In your profile or CMS, you can use the following code to insert the mp3player. I assume all files are on the location 'http://www.server.com/folder/', so you can just replace that with your files' location. </p>
+
+<pre>
+&lt;object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="300" height="200" id="mp3player" 
+    codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" &gt;
+  &lt;param name="movie" value="http://www.server.com/mp3player.swf" /&gt;
+  &lt;param name="flashvars" value="config=http://www.server.com/config.xml&file=http://www.server.com/playlist.xml" /&gt;
+  &lt;embed src="http://www.server.com/mp3player.swf" width="300" height="200" name="mp3player"
+    flashvars="config=http://www.server.com/config.xml&file=http://www.server.com/playlist.xml" 
+    type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /&gt;
+&lt;/object&gt;
+</pre>
+	<p>For MySpace, you only need the a single line. I'm not sure about other profile sites, but I presume the same code would work there as well:</p>
+	
+<pre>
+&lt;embed allowScriptAccess="never" src="http://www.server.com/folder/mp3player.swf" menu="false" quality="high" width="300" height="200" name="mp3player" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="&config=http://www.server.com/folder/config.xml&file=http://www.server.com/folder/playlist.xml" wmode="transparent" border="0" />
+</pre>
+	
+	
+	<p>Next to refering to the SWF file with an absolute URL, this code also hands the SWF the location of the config.xml and playlist.xml, through the 'config' and 'file' variables. You can change both to whatever location you want, or even assign PHP/ASP files to dynamically get content from a database. Note that the xml files, unlike the MP3 files, always have to be on the same website as the mp3player.swf (security restrictions from flash).</p>
+
+
+    <h2 id="flash">INSTALLING FOR A SINGLE MP3</h2>
+ 
+    <p>The 'file' variable, as described above, can be assigned to an XML playlist, but also to a single MP3 ('mp3player.swf?file=mysong.mp3'). The mp3player will then discard the playlist. You can use the config.xml to change the appearance of the mp3player, bu also discard it, in which case the mp3player will show as the default grey bar. This is a quick way to embed an MP3 file with playback controls into your website.</p>
+    
+    
+    
+    <h2 id="flash">INSTALLING INSIDE A FLASH MOVIE</h2>
+ 
+    <p>If you want to use the mp3player inside another Flash movie, you can simply copy-paste the 'mp3player' movieclip from the FLA into your own Flash file. If you also copy both .AS files to your Flash file's directory, the script will automatically be attached to the movieclip. At the top of the jwMp3player.as file, there's a lot of settings you can make, including all settings from the config.xml (which you can discard from then).</p>
+    <p>One note on the 'width' and 'height' variables: they are re-set later on in the script in the readConfigXML() function. You can remove these two lines from the function.</p>
+    <p>Also note that the FLA file is in Flash8 format, so it cannot be opened in older versions of Flash. Flash8 is also needed for publishing if you plan to use the javascript API. If not, publishing for Flash6 will suffice (actionscript 2.0 of course).</p>
+
+
+
+    <h2 id="version">VERSION HISTORY</h2>
+    <ul>
+        <li>2.3: replaced automatic scrolling by scrollbar. Added 'autostart' flashvar for single mode. Some bugfixes (eg. cover art resizing / list mode).</li>
+        <li>2.2: added script callback for statistics, 'list' repeat mode. Speeded up playlist scrolling. Some bugfixes.</li>
+        <li>2.1: added XSPF cover art support. Some bugfixes.</li>
+        <li>2.0: added RSS/XSPF playlists, color/size customization, javascript API, complete rewrite of the code.</li>
+        <li>1.1: some bugfixes and addition of random and autoplay vars.</li>
+    </ul>
+
+
+    <h2 id="extras">EXTRAS</h2>
+    <p>Next to the necessary files, this readme and the source code of the script, this package contains a couple of extras that might be useful in deploying the script:</p>
+    <ul>
+        <li>The color_picker contains an html file with color swatches. you can click a swatch to get the corresponding color code to use inside the config.xml.</li>
+        <li>The example_configs contains an html file with 3 example configurations of the mp3player to get you started.</li>
+        <li>The external_feeds provides a workaroud in PHP for loading podcasts/playlists from external sites, even while it's forbidden by the Flash security.</a></li>
+        <li>The force_download provides a workaround in PHP for downloading an MP3 upon a link click, instead of it opening in a new screen or mediaplayer.</li>
+        <li>The javascript_control provides a list of javascript functions that can be used to control the player and dynamically load mp3's or playlists.</li>
+        <li>The playlist_examples provides an example of the RSS(podcast) and XSPF format that this mp3player can load. It also provides an example of how to get the playlist from a PHP/MySQL database and how to generate a playlist from a directory of MP3 files.</li>
+    </ul>
+    <p>For more extras, tips and tricks you can always have a look at my forum's <a href="http://www.jeroenwijering.com?forum=Flash_MP3_Player">Flash MP3 Player threads</a>!</p>
+    
+
+    <div id="footer"> 
+        website: <a href="http://www.jeroenwijering.com">www.jeroenwijering.com</a> | last update: april 21st, 2006
+    </div>
+    
+</div>
+</body>
+</html>

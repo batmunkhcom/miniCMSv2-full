@@ -1,0 +1,17 @@
+#dicTitle{
+	width:220px;
+	background-image:url(../images/bg_title_g.jpg);
+	background-repeat:no-repeat;
+	padding-left:20px;
+	color:#003663;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding-top:4px;
+}
+#dicResult{
+	display:block;
+}
+#dicForm{
+	position:relative;
+	display:block;
+}

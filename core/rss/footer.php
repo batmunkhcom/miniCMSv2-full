@@ -1,0 +1,3 @@
+<?
+echo "</channel></rss>";
+?>

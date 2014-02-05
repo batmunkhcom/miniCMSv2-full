@@ -1,0 +1,2 @@
+[30-Apr-2009 16:50:16] PHP Warning:  mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/azmn/public_html/lib.az.mn/adodb/drivers/adodb-mysql.inc.php on line 382
+[30-Apr-2009 17:15:05] PHP Warning:  mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/azmn/public_html/lib.az.mn/adodb/drivers/adodb-mysql.inc.php on line 382

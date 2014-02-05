@@ -1,0 +1,12 @@
+#artscroller{
+	width: 165px;
+	height: 55px;
+	*height:65px;
+	padding: 3px;
+	color:#FFFFFF;
+}
+
+#artscroller a{
+	text-decoration: none;
+	color: #ffffff;
+}

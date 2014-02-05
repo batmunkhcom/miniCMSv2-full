@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Sample RSS Playlist</title>
+        <link>http://www.jeroenwijering.com/</link>
+        <description>Sample playlist in RSS format</description>
+
+      
+        <item>
+            <title>Robby Williams - Angels</title>
+            <enclosure url="http://www.someserver.com/robby.mp3" length="3650889" type="audio/mpeg"/>
+            <link>http://www.robbywilliams.com</link>
+        </item>
+
+        <item>
+            <title>Linkin Park - In The End</title>
+            <enclosure url="http://www.someserver.com/linkin.mp3" length="3650889" type="audio/mpeg"/>
+            <link>http://www.linkinpark.com</link>
+        </item>
+      
+        <item>
+            <title>Manu Chao - Me Gustas Tu</title>
+            <enclosure url="http://www.someserver.com/manu.mp3" length="3650889" type="audio/mpeg"/>
+            <link>http://www.manuchao.com</link>
+        </item>
+
+
+    </channel>
+</rss>
