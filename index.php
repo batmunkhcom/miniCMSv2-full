@@ -35,9 +35,9 @@
 
 	include(ABS_DIR.INCLUDE_DIR."includes/header.php");
 
-	#include("templates/".TEMPLATE."/index.php");
+	include("templates/".TEMPLATE."/index.php");
 
-	include("tmp.php");
+	#include("tmp.php");
 
 	include(ABS_DIR.INCLUDE_DIR."includes/footer.php");
 ?>
